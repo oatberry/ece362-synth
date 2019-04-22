@@ -10,6 +10,7 @@ int main(void) {
 
     setup_adc();
     setup_dac();
+    setup_buttons();
     init_tim2();
 
     while ( 1 ) asm("wfi");
